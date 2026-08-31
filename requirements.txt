@@ -1,0 +1,13 @@
+streamlit>=1.36.0
+langchain==0.2.16
+langchain-openai==0.1.25
+langchain-community==0.2.17
+langchain-core==0.2.43
+python-dotenv>=1.0.1
+openai>=1.10.0,<2.0.0
+
+# Note: LLMChain (used in src/chains.py to satisfy the assignment's
+# LLMChain requirement) was deprecated in LangChain 0.1.17 and removed
+# in LangChain 1.0. These versions are pinned so it keeps working.
+# If you upgrade langchain later, replace LLMChain with the modern
+# equivalent: `ASSESSMENT_CHAT_TEMPLATE | llm` (LCEL syntax).
