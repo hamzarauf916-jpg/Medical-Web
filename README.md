@@ -1,3 +1,5 @@
+https://medical-web-l2z7np3xb5sznbvt2dz2q9.streamlit.app/
+
 # MediGuide AI
 
 An educational, safety-first symptom guidance prototype built with **LangChain** + **Streamlit** + **OpenAI**.
